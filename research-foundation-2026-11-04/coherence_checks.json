@@ -1,12 +1,14 @@
 {
-  "A_westerhoff_cycle_all_true": true,
-  "A_flip_only_changed_sentence": true,
-  "A_truth_teller_cycle_fixed_points": 2,
-  "A_liar_cycle_fixed_points": 0,
-  "B_S_consistent_and_closed": true,
-  "B_T_consistent_and_closed": true,
-  "B_swap_is_automorphism": true,
-  "C_T_simpler_than_S_under_S_specified": true,
-  "C_T_simpler_than_S_under_T_specified": true,
-  "C_ranking_invariant": true
+  "A_cycle_all_true": true,
+  "A_changed_numeral_falsifies_that_sentence_only": true,
+  "A_truth_teller_fixed_points": 2,
+  "A_one_negation_fixed_points": 0,
+  "B_q_coherence_true_in_S": true,
+  "B_q_coherence_true_in_T": true,
+  "B_invariance_without_non_coherence_truth": true,
+  "C_Spec_T_true": true,
+  "C_Spec_S_false": true,
+  "C_not_e_true": true,
+  "C_S_wrong_about_e_in_this_model": true,
+  "C_premises_t1_t4_jointly_satisfiable": true
 }
