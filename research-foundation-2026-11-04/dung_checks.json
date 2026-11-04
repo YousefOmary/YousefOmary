@@ -1,0 +1,62 @@
+{
+ "random SETAFs tested": 2000,
+ "A∘A != F mismatches": 0,
+ "toy model": {
+  "lfp(A∘A) == grounded IN": true,
+  "U \\ gfp(A∘A) == grounded OUT": true,
+  "gfp \\ lfp == grounded UNDEC": true,
+  "IN": [
+   "D_E",
+   "D_pot",
+   "E_pot",
+   "G",
+   "M",
+   "P"
+  ],
+  "OUT": [
+   "S_E",
+   "S_pot",
+   "W",
+   "Z"
+  ],
+  "UNDEC": [
+   "N"
+  ]
+ },
+ "cycles (IN,OUT,UNDEC)": {
+  "self-attack a->a": [
+   [],
+   [],
+   [
+    "a"
+   ]
+  ],
+  "even cycle a<->b": [
+   [],
+   [],
+   [
+    "a",
+    "b"
+   ]
+  ],
+  "odd cycle a->b->c->a": [
+   [],
+   [],
+   [
+    "a",
+    "b",
+    "c"
+   ]
+  ],
+  "unattacked a attacks b, b attacks c": [
+   [
+    "a",
+    "c"
+   ],
+   [
+    "b"
+   ],
+   []
+  ]
+ }
+}
