@@ -1,0 +1,55 @@
+{
+ "A: monotone Ref functions enumerated on 3 contents": 8000,
+ "A: periods found": {
+  "1": 596,
+  "2": 7404
+ },
+ "A: cases where odd and even limits are incomparable": 0,
+ "B: every expressible self-referential rule, classified": {
+  "r refuted iff r in X   (liar / 'no ultimate truth')": {
+   "class": "unstable",
+   "tail": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    true
+   ]
+  },
+  "r refuted iff r not in X (truth-teller mirror)": {
+   "class": "stably in",
+   "tail": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "r never refuted         (harmless self-inclusion, 'all is empty')": {
+   "class": "stably in",
+   "tail": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  "r always refuted        (svabhava claim)": {
+   "class": "stably out",
+   "tail": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ },
+ "B: note": "the predicate 'stably in' depends on the whole sequence, not on X; no Ref rule can express it, so the strengthened liar is not a content of the model"
+}
