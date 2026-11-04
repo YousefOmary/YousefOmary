@@ -1,0 +1,44 @@
+{
+ "Ref monotone on sampled core": true,
+ "classification": {
+  "D_pot": "stably in",
+  "D_E": "stably in",
+  "S_pot": "stably out",
+  "S_E": "stably out",
+  "E_pot": "stably in",
+  "G": "stably in",
+  "P": "stably in",
+  "M": "stably in",
+  "W": "stably out",
+  "Z": "stably out",
+  "N": "unstable"
+ },
+ "stable core": [
+  "D_E",
+  "D_pot",
+  "E_pot",
+  "G",
+  "M",
+  "P"
+ ],
+ "stable core is a fixed point of A∘A": true,
+ "A has a fixed point": false,
+ "first revision of ordinary set removes": [
+  "S_E",
+  "S_pot",
+  "W",
+  "Z"
+ ],
+ "N oscillates with period 2": [
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false
+ ],
+ "G (all things are empty) is": "stably in",
+ "any content both stably in and stably out": false
+}
