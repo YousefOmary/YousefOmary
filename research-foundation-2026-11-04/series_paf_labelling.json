@@ -17,7 +17,7 @@
    "C18": "OUT",
    "C19": "OUT",
    "C20": "OUT",
-   "C21.sex": "OUT",
+   "C21.sex": "IN",
    "C22.kant": "IN",
    "C22.rus": "UNDEC",
    "C22.witt": "UNDEC",
