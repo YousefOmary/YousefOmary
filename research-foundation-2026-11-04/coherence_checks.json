@@ -1,0 +1,12 @@
+{
+  "A_westerhoff_cycle_all_true": true,
+  "A_flip_only_changed_sentence": true,
+  "A_truth_teller_cycle_fixed_points": 2,
+  "A_liar_cycle_fixed_points": 0,
+  "B_S_consistent_and_closed": true,
+  "B_T_consistent_and_closed": true,
+  "B_swap_is_automorphism": true,
+  "C_T_simpler_than_S_under_S_specified": true,
+  "C_T_simpler_than_S_under_T_specified": true,
+  "C_ranking_invariant": true
+}
