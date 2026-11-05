@@ -84,5 +84,5 @@ n("C26","C","the MMK framework: all theses out, all Nagarjuna claims in, exactly
 n("L.extract","L","the attack relation was extracted by one hand following the commentarial segmentation","26 §5"); a("L.extract","C26","unmet burden")
 
 # --- novelty claims ---
-n("C.nov","C","the revision/argumentation reading of Madhyamaka is new","17,25")
-n("L.lit","L","no literature search was done (catuskoti logic, revision theory, formal Indian argumentation)","17 §8, 25 §5"); a("L.lit","C.nov","unmet burden")
+n("C.nov","C","four targeted searches found no prior application of revision theory or Dung semantics to Madhyamaka; adjacent prior work: Chen & Wang 2020 and Cotnoir 2015 (prasanga as rejection-act without a concluded negation), Priest 2018 (plurivalent values)","31")
+n("L.lit","L","the search was four web queries, not a systematic review","31"); a("L.lit","C.nov","unmet burden")

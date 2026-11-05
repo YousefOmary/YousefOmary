@@ -1,0 +1,117 @@
+{
+ "baseline": {
+  "P.empty IN": true,
+  "S.view OUT": true,
+  "UNDEC exactly 18.7+25.24": true,
+  "no thesis IN": true,
+  "all P IN": true
+ },
+ "delete 10% of attacks (500 trials)": {
+  "P.empty IN": 0.922,
+  "S.view OUT": 0.984,
+  "UNDEC exactly 18.7+25.24": 0.712,
+  "no thesis IN": 0.0,
+  "all P IN": 0.704
+ },
+ "delete 20% of attacks": {
+  "P.empty IN": 0.818,
+  "S.view OUT": 0.968,
+  "UNDEC exactly 18.7+25.24": 0.494,
+  "no thesis IN": 0.0,
+  "all P IN": 0.504
+ },
+ "add 10% random attacks from V/O/P nodes": {
+  "P.empty IN": 0.936,
+  "S.view OUT": 0.998,
+  "UNDEC exactly 18.7+25.24": 0.932,
+  "no thesis IN": 0.124,
+  "all P IN": 0.248
+ },
+ "delete 10% and add 10%": {
+  "P.empty IN": 0.838,
+  "S.view OUT": 0.986,
+  "UNDEC exactly 18.7+25.24": 0.696,
+  "no thesis IN": 0.0,
+  "all P IN": 0.232
+ },
+ "each objection left unanswered (reply edges removed)": {
+  "O2.2": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "V2.1"
+   ]
+  },
+  "O3.3": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "V3.2"
+   ]
+  },
+  "O7.8": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "V7.4"
+   ]
+  },
+  "O10.6": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "V10.1b"
+   ]
+  },
+  "O13.2a": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "N13.1"
+   ]
+  },
+  "O13.3": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "P13.1G"
+   ]
+  },
+  "O17.6": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "P17.1"
+   ]
+  },
+  "O17.7": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "O17.6"
+   ]
+  },
+  "O17.13": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "O17.6"
+   ]
+  },
+  "O21.15": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "V21.14"
+   ]
+  },
+  "O23.13": {
+   "P.empty": "IN",
+   "targets of unanswered objection now": [
+    "P23.1"
+   ]
+  },
+  "O24.1": {
+   "P.empty": "OUT",
+   "targets of unanswered objection now": [
+    "P.empty"
+   ]
+  },
+  "O25.1": {
+   "P.empty": "OUT",
+   "targets of unanswered objection now": [
+    "P.empty"
+   ]
+  }
+ }
+}
