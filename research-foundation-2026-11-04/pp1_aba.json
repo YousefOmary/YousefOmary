@@ -1,0 +1,582 @@
+{
+ "V1 prasanga in the Samkhya's own theory": {
+  "note": "Buddhapalita §22; Candrakirti §24: 'your assertion is illogical and contradicted by what you yourself maintain'. The Madhyamika contributes no assumption; the only assumption in play is the Samkhya's thesis.",
+  "n_arguments": 8,
+  "n_attacks": 5,
+  "arguments": [
+   "{svata} |- endless",
+   "{} |- existent_no_rearise",
+   "{} |- no_endless_arising",
+   "{svata} |- not_svata",
+   "{svata} |- pointless",
+   "{svata} |- rearising_of_existent",
+   "{} |- satkarya",
+   "{svata} |- svata"
+  ],
+  "attacks": [
+   "not_svata -> endless (on ['svata'])",
+   "not_svata -> not_svata (on ['svata'])",
+   "not_svata -> pointless (on ['svata'])",
+   "not_svata -> rearising_of_existent (on ['svata'])",
+   "not_svata -> svata (on ['svata'])"
+  ],
+  "status": {
+   "svata": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "svata"
+     ]
+    ]
+   },
+   "not_svata": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "svata"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 0
+ },
+ "V1b the inference Candrakirti reads out of the prasanga (§29-§30)": {
+  "note": "§29: reason = 'existing by own nature' (the Samkhya's satkarya), example = the pot in front (acknowledged by the opponent alone, paraprasiddha). The refuting argument has EMPTY support: nothing in it is the Madhyamika's.",
+  "n_arguments": 4,
+  "n_attacks": 1,
+  "arguments": [
+   "{} |- existent_no_rearise",
+   "{} |- existing_by_own_nature",
+   "{} |- not_svata",
+   "{svata} |- svata"
+  ],
+  "attacks": [
+   "not_svata -> svata (on ['svata'])"
+  ],
+  "status": {
+   "svata": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "svata"
+     ]
+    ]
+   },
+   "not_svata": {
+    "grounded": "IN",
+    "credulous(preferred)": true,
+    "skeptical(preferred)": true,
+    "stable": "IN all",
+    "supports": [
+     []
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V1c the Samkhya's proof is his thesis (§28)": {
+  "note": "§28: 'only the opponent has to employ a proof of the matter proposed'; the burden is his, and his proof is circular.",
+  "n_arguments": 5,
+  "n_attacks": 2,
+  "arguments": [
+   "{} |- existent_no_rearise",
+   "{} |- existing_by_own_nature",
+   "{} |- not_svata",
+   "{svata} |- svata",
+   "{svata} |- svata_proof"
+  ],
+  "attacks": [
+   "not_svata -> svata (on ['svata'])",
+   "not_svata -> svata_proof (on ['svata'])"
+  ],
+  "status": {
+   "svata": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "svata"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V2 the reversal needs the exhaustiveness rule EX": {
+  "Madhyamika theory without EX (§21 prasajya-pratisedha)": {
+   "derives parata": false,
+   "derives not_parata": true,
+   "contradiction with own tenets (krtantavirodha)": false
+  },
+  "Madhyamika theory with EX added (Bhaviveka's reading of the prasanga)": {
+   "derives parata": true,
+   "derives not_parata": true,
+   "contradiction with own tenets (krtantavirodha)": true
+  },
+  "note": "The reversal lands on whoever holds EX (§35 'parasyaiva sambandhah'). The Madhyamika's attack on svata is an attack, not the assertion of parata: 'the adducing of the consequence has as its result the mere negation (pratisedhamatra) of the opponent's thesis' (§35)."
+ },
+ "V3a svatantra inference, subject ultimate (§45, §48)": {
+  "note": "asiddhadhara paksadosa / asrayasiddha hetudosa 'from his own side' (svatah).",
+  "n_arguments": 7,
+  "n_attacks": 2,
+  "arguments": [
+   "{} |- exist",
+   "{} |- no_ult_existence",
+   "{} |- nonarisen_no_locus",
+   "{} |- not_subject_ult",
+   "{subject_ult} |- not_svata_ult",
+   "{} |- pervasion",
+   "{subject_ult} |- subject_ult"
+  ],
+  "attacks": [
+   "not_subject_ult -> not_svata_ult (on ['subject_ult'])",
+   "not_subject_ult -> subject_ult (on ['subject_ult'])"
+  ],
+  "status": {
+   "not_svata_ult": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "subject_ult"
+     ]
+    ]
+   },
+   "subject_ult": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "subject_ult"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V3a' subject ultimate, self-undermining link only (§48)": {
+  "note": "the thesis attacks its own subject: a self-attacking argument.",
+  "n_arguments": 6,
+  "n_attacks": 3,
+  "arguments": [
+   "{} |- exist",
+   "{} |- nonarisen_no_locus",
+   "{subject_ult} |- not_subject_ult",
+   "{subject_ult} |- not_svata_ult",
+   "{} |- pervasion",
+   "{subject_ult} |- subject_ult"
+  ],
+  "attacks": [
+   "not_subject_ult -> not_subject_ult (on ['subject_ult'])",
+   "not_subject_ult -> not_svata_ult (on ['subject_ult'])",
+   "not_subject_ult -> subject_ult (on ['subject_ult'])"
+  ],
+  "status": {
+   "not_svata_ult": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "subject_ult"
+     ]
+    ]
+   },
+   "subject_ult": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "subject_ult"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 0
+ },
+ "V3b svatantra inference, subject conventional (§47)": {
+  "note": "the opponent's own assumption dravyasat attacks the Madhyamika's assumption subject_conv; nothing in this local framework attacks dravyasat (that would be another prasanga, i.e. the whole dispute).",
+  "n_arguments": 6,
+  "n_attacks": 2,
+  "arguments": [
+   "{dravyasat} |- dravyasat",
+   "{} |- exist",
+   "{dravyasat} |- not_subject_conv",
+   "{subject_conv} |- not_svata_ult",
+   "{} |- pervasion",
+   "{subject_conv} |- subject_conv"
+  ],
+  "attacks": [
+   "not_subject_conv -> not_svata_ult (on ['subject_conv'])",
+   "not_subject_conv -> subject_conv (on ['subject_conv'])"
+  ],
+  "status": {
+   "not_svata_ult": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "subject_conv"
+     ]
+    ]
+   },
+   "subject_conv": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "subject_conv"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V3c general subject (§48-§49)": {
+  "note": "§49: 'the proponent of emptiness and the proponent of non-emptiness do not accept a visual faculty in general, either on the surface or ultimately' - no common subject; formally the same self-attack as (a).",
+  "n_arguments": 13,
+  "n_attacks": 18,
+  "arguments": [
+   "{error} |- error",
+   "{} |- error_nonerror_exclusive",
+   "{} |- exist",
+   "{} |- nonarising_is_nonerror",
+   "{error} |- not_error",
+   "{subject_gen} |- not_error",
+   "{error} |- not_subject_gen",
+   "{subject_gen} |- not_subject_gen",
+   "{error} |- not_svata_ult",
+   "{subject_gen} |- not_svata_ult",
+   "{} |- pervasion",
+   "{error} |- subject_gen",
+   "{subject_gen} |- subject_gen"
+  ],
+  "attacks": [
+   "not_error -> error (on ['error'])",
+   "not_error -> not_error (on ['error'])",
+   "not_error -> not_subject_gen (on ['error'])",
+   "not_error -> not_svata_ult (on ['error'])",
+   "not_error -> subject_gen (on ['error'])",
+   "not_error -> error (on ['error'])",
+   "not_error -> not_error (on ['error'])",
+   "not_error -> not_subject_gen (on ['error'])",
+   "not_error -> not_svata_ult (on ['error'])",
+   "not_error -> subject_gen (on ['error'])",
+   "not_subject_gen -> not_error (on ['subject_gen'])",
+   "not_subject_gen -> not_subject_gen (on ['subject_gen'])",
+   "not_subject_gen -> not_svata_ult (on ['subject_gen'])",
+   "not_subject_gen -> subject_gen (on ['subject_gen'])",
+   "not_subject_gen -> not_error (on ['subject_gen'])",
+   "not_subject_gen -> not_subject_gen (on ['subject_gen'])",
+   "not_subject_gen -> not_svata_ult (on ['subject_gen'])",
+   "not_subject_gen -> subject_gen (on ['subject_gen'])"
+  ],
+  "status": {
+   "not_svata_ult": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "error"
+     ],
+     [
+      "subject_gen"
+     ]
+    ]
+   },
+   "subject_gen": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "error"
+     ],
+     [
+      "subject_gen"
+     ]
+    ]
+   },
+   "error": {
+    "grounded": "UNDEC",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "no stable ext",
+    "supports": [
+     [
+      "error"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 0
+ },
+ "V4 the fault of both (§56)": {
+  "Buddhapalita/Candrakirti §29 inference": {
+   "support of the refuting argument": [
+    []
+   ],
+   "attackable": false
+  },
+  "Bhaviveka §39 inference (ultimate subject)": {
+   "support of the refuting argument": [
+    [
+     "subject_ult"
+    ]
+   ],
+   "attackable": true
+  },
+  "Bhaviveka §39 inference (conventional subject)": {
+   "support of the refuting argument": [
+    [
+     "subject_conv"
+    ]
+   ],
+   "attackable": true
+  },
+  "note": "§56 reply: 'this fault occurs for those voicing an independent inference; we do not employ one, because our inferences result in the negation of the opponent's thesis'. In ABA an attack lands only on an assumption: an argument with empty support has nothing to be hit."
+ },
+ "V5 the madman: opponent with no maintained commitments (§25)": {
+  "note": "'we do not debate with a madman': with no commitments to build from, no prasanga exists and the thesis stands unrefuted. This is the cost of the method: it refutes only from what the opponent grants.",
+  "n_arguments": 1,
+  "n_attacks": 0,
+  "arguments": [
+   "{svata} |- svata"
+  ],
+  "attacks": [],
+  "status": {
+   "svata": {
+    "grounded": "IN",
+    "credulous(preferred)": true,
+    "skeptical(preferred)": true,
+    "stable": "IN all",
+    "supports": [
+     [
+      "svata"
+     ]
+    ]
+   },
+   "not_svata": "not derivable"
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V6 Bhaviveka's split rule applied to his own reasons (§50-§53)": {
+  "note": "a prasanga against Bhaviveka: an argument with empty support in HIS theory attacks his assumptions.",
+  "n_arguments": 7,
+  "n_attacks": 4,
+  "arguments": [
+   "{} |- bhaviveka_split_rule",
+   "{exist_ult} |- exist_ult",
+   "{} |- not_exist_ult",
+   "{} |- not_subject_ult",
+   "{exist_ult,subject_ult} |- not_svata_ult",
+   "{} |- pervasion",
+   "{subject_ult} |- subject_ult"
+  ],
+  "attacks": [
+   "not_exist_ult -> exist_ult (on ['exist_ult'])",
+   "not_exist_ult -> not_svata_ult (on ['exist_ult'])",
+   "not_subject_ult -> not_svata_ult (on ['subject_ult'])",
+   "not_subject_ult -> subject_ult (on ['subject_ult'])"
+  ],
+  "status": {
+   "not_svata_ult": {
+    "grounded": "OUT",
+    "credulous(preferred)": false,
+    "skeptical(preferred)": false,
+    "stable": "IN none",
+    "supports": [
+     [
+      "exist_ult",
+      "subject_ult"
+     ]
+    ]
+   }
+  },
+  "n_preferred": 1,
+  "n_stable": 1
+ },
+ "V7 provenance rule": {
+  "court rule (§57: defendant's own word or shared witness)": {
+   "refutation of svata counts": true
+  },
+  "Dignaga's rule (§59: ascertained for both only)": {
+   "refutation of svata counts": false
+  },
+  "note": "With no common subject (§49) the shared theory is empty; under Dignaga's rule no refutation and no proof is possible at all in this debate, under the court rule the prasanga counts. This is the file-29 'prasanga priority' as a norm stated by the text."
+ },
+ "theorem check": {
+  "random ABA frameworks": 3000,
+  "assumption-free arguments found": 3697,
+  "not IN (grounded) or missing from some preferred extension": 0
+ },
+ "semantics comparison": {
+  "cases": {
+   "V1 prasanga in the Samkhya's own theory :: svata": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V1 prasanga in the Samkhya's own theory :: not_svata": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V1b the inference Candrakirti reads out of the prasanga (§29-§30) :: svata": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V1b the inference Candrakirti reads out of the prasanga (§29-§30) :: not_svata": {
+    "grounded": "IN",
+    "credulous": true,
+    "skeptical": true,
+    "stable": "IN all"
+   },
+   "V1c the Samkhya's proof is his thesis (§28) :: svata": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V3a svatantra inference, subject ultimate (§45, §48) :: not_svata_ult": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V3a svatantra inference, subject ultimate (§45, §48) :: subject_ult": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V3a' subject ultimate, self-undermining link only (§48) :: not_svata_ult": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V3a' subject ultimate, self-undermining link only (§48) :: subject_ult": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V3b svatantra inference, subject conventional (§47) :: not_svata_ult": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V3b svatantra inference, subject conventional (§47) :: subject_conv": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   },
+   "V3c general subject (§48-§49) :: not_svata_ult": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V3c general subject (§48-§49) :: subject_gen": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V3c general subject (§48-§49) :: error": {
+    "grounded": "UNDEC",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "no stable ext"
+   },
+   "V5 the madman: opponent with no maintained commitments (§25) :: svata": {
+    "grounded": "IN",
+    "credulous": true,
+    "skeptical": true,
+    "stable": "IN all"
+   },
+   "V6 Bhaviveka's split rule applied to his own reasons (§50-§53) :: not_svata_ult": {
+    "grounded": "OUT",
+    "credulous": false,
+    "skeptical": false,
+    "stable": "IN none"
+   }
+  },
+  "cases where credulous/skeptical/grounded disagree": []
+ },
+ "MMK idiom split (context)": {
+  "verses scanned": 448,
+  "consequence idiom prasaj-/prasakt-/prasang-": 26,
+  "their verses": [
+   "2.4",
+   "2.5",
+   "2.6",
+   "2.10",
+   "2.11",
+   "2.19",
+   "4.2",
+   "5.1",
+   "8.6",
+   "8.8",
+   "10.3",
+   "15.11",
+   "17.16",
+   "17.23",
+   "20.7",
+   "20.9",
+   "20.18",
+   "21.14",
+   "21.16",
+   "24.1",
+   "24.13",
+   "24.20",
+   "24.31",
+   "25.4",
+   "27.11",
+   "27.12"
+  ],
+  "direct refutation idiom without prasaj-": 114,
+  "both": 2,
+  "note": "Context for V1 vs V1b: the text mostly refutes directly (na yujyate / na vidyate / nasti), the form Candrakirti reads out of the prasanga (empty support); the consequence idiom is a minority."
+ }
+}

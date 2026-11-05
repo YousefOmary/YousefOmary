@@ -86,3 +86,9 @@ n("L.extract","L","the attack relation was extracted by one hand following the c
 # --- novelty claims ---
 n("C.nov","C","four targeted searches found no prior application of revision theory or Dung semantics to Madhyamaka; adjacent prior work: Chen & Wang 2020 and Cotnoir 2015 (prasanga as rejection-act without a concluded negation), Priest 2018 (plurivalent values)","31")
 n("L.lit","L","the search was four web queries, not a systematic review","31"); a("L.lit","C.nov","unmet burden")
+
+# --- file 32: the Prasannapada chapter-one debate as ABA ---
+n("C25.hyp","C","Prasangika/Svatantrika = skeptical/credulous semantics","25 §4")
+n("D32.sem","D","on PsP §22-§60 the three semantics agree in 16/16 cases: the computed debate has no even cycle, so the difference cannot be semantic","32 §1"); a("D32.sem","C25.hyp","32")
+n("C32","C","the difference is structural: Madhyamika refutations have empty assumption support (VV 29 at §26, §56); every attack is built from the attacked party's own commitments (court rule §57 vs Dignaga §59); 'ultimately' makes the independent thesis attack its own subject (§45-§49); Bhaviveka's first charge holds for the bare reductio and §29 is the repair","32")
+n("L.pp1","L","Bhaviveka's Prajnapradipa read only through Candrakirti's citations and MacDonald's notes; Tsongkhapa not read; modelling by one hand","32 §6"); a("L.pp1","C32","unmet burden")

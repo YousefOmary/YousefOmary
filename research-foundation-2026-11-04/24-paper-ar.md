@@ -163,6 +163,13 @@
 - Kant, *Critique of Pure Reason*، ترجمة Meiklejohn (B146، B310–312).
 - Whitehead & Russell, *Principia Mathematica* I (1910)، المقدمة، الفصل الثاني.
 
+### أدبيات مجاورة (أُضيفت بعد الملفين 31 و32)
+
+- Chen Hsun-Mei & Wang Wen-Fang, “One Negation, Two Ways of Using It,” *Tetsugaku* 4 (2020) 185–205: البراسانغا رفضٌ بلا استنتاج النفي؛ نقد FDE. يكمّل §3 في الاتجاه المعاكس.
+- A. J. Cotnoir, “Nāgārjuna's Logic” (2015): التفنيد فعل إنجازي.
+- G. Priest, *The Fifth Corner of Four*, Oxford 2018: الدلالة التعددية القيم.
+- A. MacDonald, *In Clear Words. The Prasannapadā, Chapter One*, Vienna: ÖAW 2015: §22–§60 محسوبةً في الملف 32. قاعدة المحكمة (§57) تنصّ على أن الإبطال يُبنى من التزامات الخصم.
+
 ### الأدوات
 
 `fp_checks.py`، `review8_checks.py`، `revision_model.py`، `revenge_checks.py`، `limits_checks.py`، `mmk_scan.py`، مع نواتجها، في المجلد نفسه. الملفات 07 و15 و17–23 تحوي التفصيل والمراجعات التي أسقطت النسخ الأولى.

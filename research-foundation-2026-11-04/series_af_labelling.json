@@ -22,7 +22,9 @@
   "C23": "UNDEC",
   "C25": "IN (unattacked)",
   "C26": "OUT",
-  "C.nov": "OUT"
+  "C.nov": "OUT",
+  "C25.hyp": "OUT",
+  "C32": "OUT"
  },
  "IN defended": [
   "C15",
@@ -53,7 +55,9 @@
   "C19",
   "C20",
   "C26",
-  "C.nov"
+  "C.nov",
+  "C25.hyp",
+  "C32"
  ],
  "all labels": {
   "C04": "OUT",
@@ -114,7 +118,11 @@
   "C26": "OUT",
   "L.extract": "IN",
   "C.nov": "OUT",
-  "L.lit": "IN"
+  "L.lit": "IN",
+  "C25.hyp": "OUT",
+  "D32.sem": "IN",
+  "C32": "OUT",
+  "L.pp1": "IN"
  },
  "lenient (limitations not attacks)": {
   "IN defended": [
@@ -136,7 +144,8 @@
    "C19",
    "C20",
    "C25",
-   "C26"
+   "C26",
+   "C32"
   ],
   "UNDEC": [
    "C22.rus",
@@ -146,7 +155,8 @@
   "OUT": [
    "C04",
    "C07v1",
-   "C10v1"
+   "C10v1",
+   "C25.hyp"
   ]
  }
 }
